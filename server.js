@@ -18,7 +18,7 @@ app.patch("/", (req, res) => {
     const data = req.body;
     console.log(data);
 
-    res.send("Request Patch, 이름: "+data.name+"\n 나이: "+data.age);x``
+    res.send("Request Patch, 이름: "+data.name+"\n 나이: "+data.age);
   }); 
 
 
